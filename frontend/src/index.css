@@ -1,1 +1,21 @@
+/* 1 analisar fonte no figman, 2 busca por google fonts css,  3 selecionar e importar o comando da fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+:root {
+  --color-primary: #4D41C0;
+}
+
+* {  /* o (asterisco *) indica todos , ou seja , todos terão a mesma fonte e borda*/
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif; /* defini que todas as fontes serão open sans*/
+}
+
+html, body {
+    background-color: #E5E5E5;
+}
+
+/* definiu o estilos referente a liks*/
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
