@@ -1,0 +1,13 @@
+Passo 5  "limpar" o projeto ReactJS
+
+5.1 Deletar arquivos não usados no visual code
+
+	5.1.1 dentro da pasta public deixar somente o arquivo index.html
+
+	5.1.2 dentro da pasta src deixar somente os arquivos (app.tsx ;index.tsx ;index.css ;react-app-env.d.ts)
+
+	5.1.3 dentro da pasta app.tsx deixar somente o necessario(apagar div e todos os imports , adcionar h1)
+	
+	5.1.4 apagar todo conteudo dentro do arquivo index.css
+
+	5.1.5 dentro do arquivo index.tsx apagar comentarios e reportwebvitals e seu import
