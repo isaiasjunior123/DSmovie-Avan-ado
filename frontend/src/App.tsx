@@ -1,9 +1,10 @@
+import BarradeNavegacao from "./Componentes/BarradeNavegacao";
 
 function App() {
   return (
 
-    <h1>Pagina principal</h1>
-    
+    <BarradeNavegacao />
+
   );
 }
 

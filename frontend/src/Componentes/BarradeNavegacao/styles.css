@@ -1,0 +1,33 @@
+    header {
+        height: 60px; /* definição da altura da barra*/
+        display: flex;
+        align-items: center;
+        background-color: var(--color-primary); /* definiu cor da barra*/
+    }
+
+    .dsmovie-barradenavegacao-conteudo{
+        display:flex;  /* fez com que os elementos ficasse um ao lado do outro e não abaixo*/
+        justify-content: space-between; /* fez com que os elementos ficassem um em cada ponta e não colado um ao lado do outro*/
+        align-items: center; /* alinhou os conteudos ao centro*/
+        color: #fff;
+    }
+
+
+    .dsmovie-barradenavegacao-conteudo h1{
+        font-weight: 700;
+        margin: 0;
+        font: size 24px; 
+    }
+
+    .dsmovie-linkedin-contato {
+
+        display: flex; /* deixou os elementos um ao lado do outro  e não acima */
+
+    }
+
+    .dsmovie-link-contato{
+        margin:  0 0 0 10px; /* deixou margem somente a esquerda*/
+        color: #fff;
+        text-decoration: none;
+        font: size 12px;
+    }

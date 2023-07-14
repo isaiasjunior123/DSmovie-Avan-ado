@@ -11,3 +11,35 @@ Passo 5  "limpar" o projeto ReactJS
 	5.1.4 apagar todo conteudo dentro do arquivo index.css
 
 	5.1.5 dentro do arquivo index.tsx apagar comentarios e reportwebvitals e seu import
+
+Passo 6 adicionar Bootstrap e CSS ao projeto
+
+Passo 7 criação de componentes
+
+ 7.1 criar a pasta componenetes dentro do src
+ 7.2 criar componenetes do projeto(barra de vavegação ; cabeçãlho; rodapé...)
+ 7.3 importar esses componentes no arquivo principal do projeto (App.tsx)
+
+7.2 Componente Navbar:
+
+ 7.2.1 criar a pasta barra de navegação e digitar seu conteudo html correpondente.
+
+ 7.2.2 Exportação de imagens ,criar a pasta recursos , dentro do src
+
+	7.2.1 clica  na imagem no figma , exportar e  imagem no formato SVG , criar pasta img , colocar imagens dentro.
+
+	7.2.3 fazer importação da imagem dentro do arquivo BarradeNavegação -> import {ReactComponent as IconeGithub}  from '../../Recursos/img/github.svg';
+		oberservaçoês:
+                   IconeGithub primeira letra maiuscula , convençôes de nomenclatura correta do Reacte
+                   para evitar a repetição de (../../) , digite ("baseUrl": "./src") no arquivo tsconfig.json e reinicie 
+
+ 7.2.3 Adionando estilo a barra de navegação
+
+   7.2.3.1 criar arquivo styles.css dentro da pasta barra de navegação e adicionar os estilos.
+     obs. apos estilizar importar o css no arquivo index.tsx da barra de navegação
+
+ RESUMO: criamos o componente Barra de Navegação e seu conteúdo HTML correspondente.
+         Exportamos imagens e as importação no componente Barra de Navegação.
+         configuramos o arquivo tsconfig.json e importamos o componente criado para App.tsx
+         adicionamos estilos a barra de navegação
+
