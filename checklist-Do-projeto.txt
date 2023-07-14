@@ -43,3 +43,10 @@ Passo 7 criação de componentes
          configuramos o arquivo tsconfig.json e importamos o componente criado para App.tsx
          adicionamos estilos a barra de navegação
 
+Passo 8 Criação e Configuração das rotas e navegação entre paginas.
+ 8.1 criar dentro do src a pasta chamada paginas e colocar as paginas do projeto.
+ 8.2 criar funçoês dentro de cada pagina
+ 8.1 adicionar o codigo de configuração de rotas no arquivo App.tsx e importar as paginas criadas
+ 
+  obs. após criar as paginas do projeto 
+
